@@ -1,0 +1,50 @@
+nav a {
+ margin: 0 10px;
+text-decoration: none;
+color: blue;
+}
+nav a:hover {
+text-decoration: underline;
+}
+ section {
+display: none;
+}
+section.active {
+display: block;
+}
+
+.nav-container {
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 400px;
+height: 50px;
+background-color: #f0f0f0;
+border-radius: 15px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+margin: 50px auto;
+}
+.nav-button {
+text-decoration: none;
+padding: 10px 15px;
+background-color: #4CAF50;
+color: white;
+border-radius: 10px;
+font-size: 14px;
+font-family: Arial, sans-serif;
+transition: background-color 0.3s ease;
+}
+.nav-button:hover {
+background-color: #45a049;
+}
+
+.mem{
+   width: 250px;
+   height: auto;
+}
+h2{
+  text-align: center;
+}
+nav{
+text-align: center;
+}
