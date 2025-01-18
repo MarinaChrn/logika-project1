@@ -1,0 +1,57 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проста Навігація</title>
+    <script>
+        function showSection(id) {
+            document.querySelectorAll('section').forEach(section => {
+                section.classList.remove('active');
+            });
+            document.getElementById(id).classList.add('active');
+        }
+    </script>
+  <link rel="stylesheet" src="style.css"/>
+</head>
+<body>
+    <header>
+        <h1>Вітаємо на нашому сайті про меми!</h1>
+    </header>
+      <nav>
+        <a href="#" onclick="showSection('aboba'); return false;">Абоба</a> |
+        <a href="#" onclick="showSection('sigma'); return false;">Сигма</a> |
+        <a href="#" onclick="showSection('kuma'); return false;">Кума?</a> |
+        <a href="#" onclick="showSection('abama'); return false;">Абама</a>
+    </nav>
+    <main>
+        <section id="aboba" class="active">
+            <h2>Абоба</h2>
+            <p>Абоба — популярний мем в інтернет-культурі.</p>
+            <img class="mem" src="https://t2.genius.com/unsafe/252x252/https%3A%2F%2Fimages.genius.com%2Fdd7ecb90df2111ba12a9e9d8ca290f3a.499x499x1.png">
+        </section>
+
+        <section id="sigma">
+            <h2>Сигма</h2>
+            <p>Сигма — термін, що має популярність у сучасній культурі та філософії.</p>
+            <img class="mem" src="https://scribo.kz/wp-content/uploads/2024/03/sigma.webp">
+        </section>
+
+        <section id="kuma">
+            <h2>Кума?</h2>
+            <p>Кума? — питання, що стало мемом завдяки своїй популярності в спільнотах мемів.</p>
+            <img class="mem" src="https://steamuserimages-a.akamaihd.net/ugc/2491129613438624267/E94F8EE5A0A7A5EAF151DA026E2C2D962A7BAE42/?imw=268&imh=268&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true">
+        </section>
+
+        <section id="abama">
+            <h2>Абама</h2>
+            <p>Абама — мем, що виник на основі образу Барака Обами.</p>
+            <img class="mem" src="https://foni.papik.pro/uploads/posts/2024-10/foni-papik-pro-jx3r-p-kartinki-obama-na-prozrachnom-fone-1.png">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Наш сайт. Всі права захищені.</p>
+    </footer>
+
+</body>
+</html>
