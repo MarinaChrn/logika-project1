@@ -1,0 +1,42 @@
+h1 {
+ color: rgb(100, 170, 255);
+ text-align: center;
+ background-color: rgb(200, 254, 254);
+}
+img {
+   width: 1000px;
+   height: 500px;
+   border-radius: 20px;
+   border: 7px solid rgb(68, 148, 252); 
+}
+h2 {
+ color: rgb(168, 68, 250);
+ text-align: center;
+ background-color: rgb(228, 202, 251);
+}
+ p {
+background-color: rgb(216, 65, 250);
+color: rgb(233, 177, 251);
+border-radius: 8px;
+}
+h3{
+   color:rgb(251, 94, 175) ;
+   text-align: center;
+   background-color:rgb(253, 187, 231) ;
+}
+.styledp {
+   background-color:rgb(253, 187, 231);
+   color:rgb(251, 94, 175);
+   border-radius: 8px;
+}
+.icons{
+   width: 1000px;
+   height: 450px;
+   border-radius: 20px;
+   border: 5px solid rgb(204, 201, 137);
+}
+.marker{
+   background-color: rgb(215, 250, 185);
+   color:rgb(134, 210, 47);
+   text-align: center;
+}
