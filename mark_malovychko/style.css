@@ -2,3 +2,39 @@
  width:65px;
  height:65px ;   
 }
+
+.mind {
+  width:260px;
+  height:200px ;
+}
+.link{
+  text-decoration: underline;
+  text-decoration-color: red;
+  color: black;
+  font-size: 25px;
+
+}
+
+h2 {
+  font-size: 35px;
+  text-align: center;
+
+}
+
+.image {
+  text-align: center;
+}
+.TSB{
+  text-decoration: underline;
+  text-align: center;
+  font-size: 25px;
+  color: red;
+}
+.BF{
+ color: darkgreen; 
+ text-align: center;
+}
+.F{
+  text-align: center; 
+  color: brown;
+}
