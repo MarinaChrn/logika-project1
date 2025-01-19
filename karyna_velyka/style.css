@@ -7,16 +7,17 @@ h1{
     color: Sienna;
     font-size: 40px;
     text-transform: uppercase;
+    font-family: PALATINO LINOTYPE;
 }
 
 p{
     font-size: 23px;
     text-align: left;
-    font-family: constantia;
+    font-family: palatino linotype;
 }
 
 img{
-    width: 300px;
+    weight: 300px;
     height: 450px;
 }
 
@@ -25,13 +26,17 @@ h2{
     color: Sienna;
     font-size: 40px;
     text-transform: uppercase;
+     font-family: PALATINO LINOTYPE;
 }
 
 a{
     color: SaddleBrown;
     font-size: 25px;
+    font-family: map symbols;
+    
 }
 
 h3{
     font-size: 22px;
+    font-family: PALATINO LINOTYPE;
 }
